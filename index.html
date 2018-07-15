@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2 uzduotis</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1><i class="fa fa-book" aria-hidden="true"></i>Address Book</h1>
+		<ul>
+		
+		</ul>
+		<div class="user-details"></div>
+
+		<button id='add'><i class="fa fa-plus" aria-hidden="true"></i></button>
+		<button id='remove'><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+		<br></br>
+		<form id="myForm">
+			<select name="title" id="title">
+				<option value="ms">Ms</option>
+				<option value='mr'>Mr</option>	
+			</select>
+			<br></br>
+
+			First Name: <input type="text" name="firstName" id="firstName">
+			<br></br>
+			Last Name: <input type="text" name="lastName" id="lastName">
+			<br></br>
+			<i class="fa fa-phone" aria-hidden="true"></i> Phone: <input type="text" name="phone" id="phone">
+			<br></br>
+			<button id="save">Save <i class="fa fa-battery-three-quarters" aria-hidden="true"></i></button>
+		</form>
+		
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js.js" type="text/javascript"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+	background-color: lightyellow;
+	color: green;
+}
+
+h1 {
+	color: darkblue;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+	border: solid 3px brown;
+	padding: 10px;
+}
+
+#myForm {
+	text-align: right;
+	display: none;
+}
+
+li {
+	cursor: pointer;
+}
+
+.user-details {
+	color: black;
+	font-weight: bold;
+
+}
